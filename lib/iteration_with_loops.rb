@@ -8,13 +8,13 @@ def find_even_values(src)
   innerCount = 0
 
   while src[outerCount]
-    while src[outerCount][innerCount]
-      currentNumber = src[outerCount][innerCount]
-      return_array << currentNumber 
-      innerCount += 1
-    end
-    innerCount = 0
-    outerCount += 1
+    # while src[outerCount][innerCount]
+    #   currentNumber = src[outerCount][innerCount]
+    #   return_array << currentNumber 
+    #   innerCount += 1
+    # end
+    # innerCount = 0
+    # outerCount += 1
   end
   return_array
 end
