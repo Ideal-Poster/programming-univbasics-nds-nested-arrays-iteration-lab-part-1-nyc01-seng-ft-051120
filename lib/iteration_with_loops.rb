@@ -10,7 +10,7 @@ def find_even_values(src)
   while src[outerCount]
     while src[outerCount][innerCount]
       currentNumber = src[outerCount][innerCount]
-      return_array << currentNumber if currentNumber % 2 == 0
+      return_array << currentNumber 
       innerCount += 1
     end
     innerCount = 0
