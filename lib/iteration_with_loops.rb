@@ -7,8 +7,6 @@ def find_even_values(src)
   outerCount = 0
   innerCount = 0
 
-  binding.irb
-  
   while src[outerCount]
     while src[outerCount][innerCount]
       currentNumber = src[outerCount][innerCount]
